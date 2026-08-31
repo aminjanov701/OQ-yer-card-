@@ -1,115 +1,102 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="description" content="Eldor — OQ YER CHOYXONASI asoschisi. Farg‘ona." />
-  <title>ELDOR — OQ YER CHOYXONASI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f2eee6">
+  <meta name="description" content="Eldor — OQ YER CHOYXONASI asoschisi. Farg‘ona.">
+  <title>Eldor — OQ YER</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="app">
-    <div class="top-glow"></div>
+    <div class="page-noise"></div>
 
-    <!-- Brand -->
-    <section class="brand">
-      <div class="brand-mark" aria-hidden="true">
-        <span>OQ</span>
-        <span>YER</span>
+    <header class="topbar">
+      <div class="brand-lockup">
+        <div class="brand-word">OQ YER</div>
+        <div class="brand-sub">CHOYXONASI</div>
       </div>
-      <h1>OQ YER</h1>
-      <p>CHOYXONASI</p>
-      <div class="brand-line"></div>
-    </section>
+      <div class="card-label">DIGITAL CARD</div>
+    </header>
 
-    <!-- Owner -->
-    <section class="owner">
-      <div class="owner-photo" id="ownerPhoto" aria-label="Eldor photo">
-        <div class="photo-placeholder">
-          <span>ELDOR</span>
+    <section class="hero">
+      <div class="portrait-shell">
+        <div class="portrait">
+          <div class="portrait-placeholder">
+            <span>ELDOR</span>
+          </div>
+          <div class="portrait-shine"></div>
         </div>
       </div>
 
-      <div class="owner-role">ASOSCHI</div>
-      <h2>Eldor</h2>
-      <p class="owner-caption">OQ YER CHOYXONASI</p>
-      <p class="owner-location">Farg‘ona, O‘zbekiston</p>
-    </section>
-
-    <!-- Owner contacts -->
-    <section class="section">
-      <div class="section-title">ELDOR BILAN BOG‘LANISH</div>
-
-      <div class="contact-grid">
-        <a class="contact-item contact-main" id="phoneLink" href="#">
-          <div class="contact-icon">☎</div>
-          <div class="contact-copy">
-            <span class="contact-label">Telefon</span>
-            <strong id="phoneText">Telefon raqami</strong>
-          </div>
-          <span class="arrow">›</span>
-        </a>
-
-        <a class="contact-item" id="telegramLink" href="#" target="_blank" rel="noopener noreferrer">
-          <div class="contact-icon">✈</div>
-          <div class="contact-copy">
-            <span class="contact-label">Telegram</span>
-            <strong id="telegramText">@username</strong>
-          </div>
-          <span class="arrow">›</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Official -->
-    <section class="section">
-      <div class="section-title">OQ YER RASMIY</div>
-
-      <div class="social-grid">
-        <a class="social-item" href="https://www.instagram.com/oqyerchoyxonasi_fargona/" target="_blank" rel="noopener noreferrer">
-          <span class="social-symbol">◎</span>
-          <span>
-            <small>Instagram</small>
-            <strong>@oqyerchoyxonasi_fargona</strong>
-          </span>
-          <span class="arrow">›</span>
-        </a>
-
-        <a class="social-item" id="oqyerTelegram" href="https://t.me/oqyerchoyxona" target="_blank" rel="noopener noreferrer">
-          <span class="social-symbol">✈</span>
-          <span>
-            <small>Telegram CHOYXONA</small>
-            <strong>@oqyerchoyxona</strong>
-          </span>
-          <span class="arrow">›</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Location -->
-    <section class="section">
-      <div class="section-title">BIZNING MANZIL</div>
-
-      <a class="location-card" href="https://share.google/bPjletfjvAXdNIUve" target="_blank" rel="noopener noreferrer">
-        <div class="location-pin">⌖</div>
-        <div class="location-copy">
-          <span class="contact-label">Google Maps</span>
-          <strong>OQ YER CHOYXONASI</strong>
-          <small>Farg‘ona, O‘zbekiston</small>
+      <div class="hero-copy">
+        <div class="eyebrow">ASOSCHI</div>
+        <h1>ELDOR</h1>
+        <div class="verified-row">
+          <span class="verified">✓</span>
+          <span>Founder of OQ YER</span>
         </div>
-        <span class="arrow">›</span>
+        <div class="place">FARG‘ONA · O‘ZBEKISTON</div>
+      </div>
+    </section>
+
+    <section class="primary">
+      <a class="primary-btn" id="primaryContact" href="#">
+        <span>BOG‘LANISH</span>
+        <span class="primary-arrow">↗</span>
       </a>
     </section>
 
-    <button class="save-button" id="saveContact">
-      <span>↓</span>
-      KONTAKTNI SAQLASH
+    <section class="contacts">
+      <div class="contact-line" id="phoneLine" role="link" tabindex="0">
+        <div class="line-icon">☎</div>
+        <div class="line-copy">
+          <small>TELEFON</small>
+          <strong id="phoneText">Telefon raqami</strong>
+        </div>
+        <span class="line-arrow">↗</span>
+      </div>
+
+      <a class="contact-line" id="telegramLine" href="#" target="_blank" rel="noopener noreferrer">
+        <div class="line-icon">✈</div>
+        <div class="line-copy">
+          <small>TELEGRAM</small>
+          <strong id="telegramText">@username</strong>
+        </div>
+        <span class="line-arrow">↗</span>
+      </a>
+
+      <a class="contact-line" href="https://www.instagram.com/oqyerchoyxonasi_fargona/" target="_blank" rel="noopener noreferrer">
+        <div class="line-icon">◎</div>
+        <div class="line-copy">
+          <small>OQ YER INSTAGRAM</small>
+          <strong>@oqyerchoyxonasi_fargona</strong>
+        </div>
+        <span class="line-arrow">↗</span>
+      </a>
+
+      <a class="contact-line" href="https://share.google/bPjletfjvAXdNIUve" target="_blank" rel="noopener noreferrer">
+        <div class="line-icon">⌖</div>
+        <div class="line-copy">
+          <small>LOCATION</small>
+          <strong>OQ YER CHOYXONASI · FARG‘ONA</strong>
+        </div>
+        <span class="line-arrow">↗</span>
+      </a>
+    </section>
+
+    <section class="statement">
+      <span class="quote-mark">“</span>
+      <p>Mehmondo‘stlik — bu qadriyat.</p>
+    </section>
+
+    <button class="save-btn" id="saveContact">
+      <span class="save-icon">＋</span>
+      <span>KONTAKTNI SAQLASH</span>
     </button>
 
     <footer>
@@ -119,10 +106,7 @@
     </footer>
   </main>
 
-  <div class="toast" id="toast" role="status" aria-live="polite">
-    Kontakt yuklab olindi
-  </div>
-
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
 </body>
 </html>
