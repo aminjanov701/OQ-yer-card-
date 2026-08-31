@@ -38,11 +38,10 @@ Matte dark-marble layered background with a very subtle geometric Uzbek-inspired
 ## Visual theme v4
 Warm Premium: warm ivory matte marble, subtle gold geometric ornament, soft natural texture, and restrained dark typography.
 
-## Telegram CHOYXONA
-Official OQ YER CHOYXONA Telegram: https://t.me/oqyer_choyxona_chat
+## v4.1 Refined
+Refined from v4 without the compressed v5 app-like layout. Focus: premium airy mobile composition, warm marble background, restrained gold, elegant portrait frame, calm contact rows.
 
-## Owner phone
-+998 90 300 18 18
-
-## Updated official Telegram
-https://t.me/oqyerchoyxona
+## v4.2 fixed
+Corrected package pairing: matching HTML/CSS/JS from the refined version, fixed dark theme for consistent Chrome/Safari rendering, and stacked full-width contact rows to prevent clipping.
+Phone: +998 90 300 18 18
+Tea-house Telegram: https://t.me/oqyerchoyxona
